@@ -1,0 +1,26 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "Understanding Promises in javascript",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "babel src -d dist --source-maps inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarbham/Understanding-Promises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarbham/Understanding-Promises/issues"
+  },
+  "homepage": "https://github.com/amarbham/Understanding-Promises#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
